@@ -133,7 +133,7 @@ class HomeController extends Controller
         $ids = $request->ids;
 
         $oldavatar = DB::table('users')
-        ->where('id','=', $id)
+        ->where('id','=', $ids)
         ->value('avatar');
 
         File::delete(public_path($oldavatar));
