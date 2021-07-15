@@ -60,3 +60,13 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## About this application
+This application is build using Laravel. It is a simple web application that can register, login, forgot password, reset password through email, and CRUD
+
+## Admin Login
+email: admin123@gmail.com
+password: test12345
+
+## Database
+Import simpleapp.sql in your localhost
